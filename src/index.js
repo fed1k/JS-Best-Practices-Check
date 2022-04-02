@@ -11,9 +11,7 @@ class Template {
 }
 
 let array = [];
-const sendToLocalStorage = () => {
-  localStorage.setItem('list', JSON.stringify(array));
-};
+const sendToLocalStorage = () => localStorage.setItem('list', JSON.stringify(array));
 
 const section = document.querySelector('section');
 section.innerHTML = `
